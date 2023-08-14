@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #272525;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    margin: -4em auto;
+    justify-content: center;
+    list-style: none;
+    background-color: #272525;
+    position: fixed;
+    border-bottom: 2px solid rgb(217, 225, 255, 0.5);
+}
+
+.nav a{
+    text-decoration: none;
+    margin: 0.5em 2em;
+}
+
+.nav a li{
+    font-family: 'Arimo', sans-serif;
+    color: #d9e1ff;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 1em 0;
+}
+
+.nav a li:hover{
+    color: white;
+}
+
+.banner{
+    width: 100%;
+    margin: 4em auto 0;
+    padding: 10em 0;
+    background-image: url("https://formacion.intef.es/tutorizados_2013_2019/pluginfile.php/109512/mod_book/chapter/4328/the%20idea%20man.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner h1{
+    width: 60%;
+    font-size: 3em;
+    margin: auto;
+    font-family: 'Syne', sans-serif;
+    color: white;
+    background-color: grey;
+}
+
+.banner p{
+    width: 60%;
+    margin: 1em auto 0;
+    font-size: 1.2em;
+    font-weight:normal;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    background-color: gray ;
+}
+
+
+/* CONTENIDO */
+
+.contenedor{
+    width: 60%;
+    margin: 6em auto;
+}
+
+.titulo{
+    font-family: 'Syne', sans-serif;
+    font-size: 3em;
+    color: white;
+    margin: auto;
+    padding: 0.5em 0;
+}
+
+.subtitulo{
+    color: #d9e1ff;
+    padding: 0.5em 0;
+    margin: auto;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    font-family: 'Arimo', sans-serif;
+}
+
+.contenido{
+    background-color: #272525;
+    margin: 2em auto;
+    padding: 2em;
+}
+
+.contenido h2{
+    font-family: 'Syne', sans-serif;
+    font-size: 1.5em;
+    margin: 0 auto;
+    color: white;
+}
+
+.contenido p{
+    color: #d9e1ff;
+    padding: 0.5em 0;
+    margin: 0 auto;
+    font-size: 1.1em;
+    font-family: 'Arimo', sans-serif;
+}
+
+.contenido img{
+    margin: 1em 0 0 0;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* INTEGRANTES */ 
+
+.integrantes{
+    margin: auto;
+    padding: 2em 0;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+}
+
+.integrantes p{
+    padding: 0.5em 0;
+    color: #d9e1ff;
+}
+
+hr{
+    border-top: 1px solid #d9e1ff;
+    opacity: 0.5;
+}
